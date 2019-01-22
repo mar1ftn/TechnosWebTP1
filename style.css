@@ -1,36 +1,117 @@
 *{
 	font-family: 'Oswald', sans-serif;
+	font-color: ;
 }
+
+title{
+	margin: auto;
+	padding: auto;
+}
+
 body{
 	margin: 0;
 	padding: 0;
 }
 
 .haut{ 
-	background-image: url(img/ciel.jpg);
+	background-image: url(img/fondSwag.jpg);
     background-attachment: fixed;
-    background-repeat: no-repeat;
+    background-repeat: all;
     width: 100%;
-    background-size: 100%;
     height: 400px;
-    background-position: center;
+}
 
+.haut h1{
+	color :white;
+	margin: 0;
+	text-align: center;
+	padding-top: 150px;
+	font-size: 70px;
 
 }
 
-.CV{
+.aboutme{
+	background-color: rgba(255,100,260,1);
+	width: 100%;
+	height: 220px;
+	position : relative;
+	left : 0px;
+	background-position: center;
 
 }
 
-.album img{
+.aboutme h2{
+	margin : 0;
+}
+
+.interest{
+	background-image: url(img/damon.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;;
+    background-repeat: all;
+    background-attachment: fixed;
+	margin: 0px;
+	padding-bottom: 17px;
+}
+
+.interest h2 {
+	color : white;
+	margin : 0;
+}
+
+.musique p{
+	position: relative;
+	left: 30px;
+	top : 50px;
+	text-align: center;
+	color: white;
+}
+
+.musique audio{
+	float: right;
+}
+
+p.left{
+	text-align: left;
+
+}
+
+.musique img{
 	float : left;
 	margin: 10px 10px; /*haut,bas / gauche,droite*/
-	width : 200px;
-	height: 200px;
+	width : 100px;
+	height: 100px;
 	border-radius: 8px;
 	transition : 1s; /* fait l'anim hover sur 1 sec*/
 }
 
-.album img:hover{
+.musique{
+	width: 100%;
+	height: 130px;
+	background-color: rgba(0,0,0,0.5);
+	position : relative;
+	left : 0px;
+}
+
+.espacebtm{
+	margin-bottom: 17px;
+}
+
+.musique img:hover{
 	transform: rotate(360deg); /*tourne à 360*/
+}
+
+.form{
+	background-color: rgba(255,120,16,1);
+	width: 100%;
+	position : relative;
+	left : 0px;
+	background-position: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+
+.form h2{
+	margin : 0;
 }

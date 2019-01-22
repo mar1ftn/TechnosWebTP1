@@ -10,24 +10,56 @@
 
 <body>
 <div class="haut">
-	<h2>Marin Fonteneau</h2>
+	<h1>Marin Fonteneau</h1>
 </div>
 
 
 <section class="CV">
-<div class="about me">
-	<p>Je suis </p>
+<div class="aboutme">
+	<h2>Qui suis-je ?</h2>
+	<p>Je suis un futur ingénieur en objets connectés.</p>
 </div>
 
 <div class="interest">
-<p>Une musique que j'aime bien :</p>
+<h2>Quelque trucs que j'aime bien :</h2>
 <div class="musique">					
-<img src="img/booA2.jpg" class="couv">
-<p> Nom de la musique </p>
+<img src="img/booA4.jpg">
+<p class= "left" >Une musique cool:</p>
+<figure> 
+    <audio
+        controls>
+        <source src="img/musique.mp3" type="audio/mp3">
+            Your browser does not support the
+    </audio>
+</figure>
+</div>
+<div class="musique espacebtm">
+<img src="img/ballon.jpg">
+	<p class="left">Dribler les gens.</p>
+</div>
+<div class="musique">
+<img src="img/jeton.jpg">
+<p class="left">Faire du poker online ou avec les copains.</p>
 </div>
 	
 </div>	
-<div class="form"></div>
+
+<div class="form">
+	<form method="post">
+    <div>
+        <label for="name">Nom :</label>
+        <input type="text" id="name" name="user_name">
+    </div>
+    <div>
+        <label for="mail">e-mail :</label>
+        <input type="email" id="mail" name="user_mail">
+    </div>
+    <div>
+        <label for="msg">Message :</label>
+        <textarea id="msg" name="user_message"></textarea>
+    </div>
+</form>
+</div>
 </section>
 </body>
 
