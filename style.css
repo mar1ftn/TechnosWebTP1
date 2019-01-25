@@ -25,19 +25,32 @@ body{
     height: 400px;
 }
 
+.top{
+	width: 400px;
+	height: auto;
+	margin : 0;
+	position: relative;
+	bottom:170px;
+	left:5%;
+}
+
+.title{
+	display: block;
+	width:75%;
+}
+
 .haut h1{
 	color :white;
 	margin: 0;
-	text-align: center;
+	text-align: right;
 	padding-top: 150px;
 	font-size: 70px;
 
 }
 
 .aboutme{
-	background-color: rgba(255,100,260,1);
 	background: linear-gradient(to bottom, #ff33cc, #800060 100%);
-	width: 100%;
+	width: 61%;
 	height: 220px;
 	position : relative;
 	left : 0px;
@@ -49,14 +62,58 @@ body{
 	margin : 0;
 	padding-top: 15px;
 	text-align: center;
+	text-shadow: -1px 1px 1px white;
+
 }
 
 .aboutme p{
 	text-align: center;
 }
 
+.langue{
+	float:right;
+	background-color: yellow;
+	height: 220px;
+	width:39%;
+	margin: 0;
+
+}
+.langue h3{
+	margin: 0;
+	text-align: center;
+	padding-top: 15px;
+	font-size : 20px;
+	text-shadow: -1px 1px 1px white;
+}
+
+.lng{
+	text-align: center;
+}
+
+.lng1{
+	position: relative;
+}
+.lng1::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: -webkit-linear-gradient(left, #f00, #00f);
+  background: linear-gradient(to right, #f00, #00f,);
+  content: '';
+  display: block;
+  mix-blend-mode: screen;
+}
+.lng2{
+	
+}
+.lng3{
+	
+}
+
 .interest{
-	background-image: url(img/damon.jpg);
+	background-image: url(img/shayan.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;;
     background-repeat: all;
@@ -82,7 +139,7 @@ body{
 }
 
 .musique audio{
-	width: 600px;
+	width: 250px;
 	margin: 0 auto ;
 	display: block;
 
@@ -163,4 +220,5 @@ p.left{
 .field{
 	padding-bottom: 5px;
 	text-align: center;
+
 }
